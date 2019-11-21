@@ -4,4 +4,7 @@ node default {
     content => 'Hello world! This is a readme',
     ownder  => 'root',
   }
+    file {'/root/README.md':
+    ownder  => 'root',
+  }
 }
